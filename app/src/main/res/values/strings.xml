@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AgendaContactos</string>
+
+    <string name="create">Create Contact</string>
+    <string name="list">List Contacts</string>
+
+    <string-array name="Menu">
+        <item>@string/create</item>
+        <item>@string/list</item>
+    </string-array>
+</resources>
