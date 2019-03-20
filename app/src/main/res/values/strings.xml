@@ -3,6 +3,12 @@
 
     <string name="create">Create Contact</string>
     <string name="list">List Contacts</string>
+    <string name="name">Name</string>
+    <string name="lastname">LastName</string>
+    <string name="phone">Phone</string>
+    <string name="cellphone">CellPhone</string>
+    <string name="save">Save</string>
+    <string name="done">Save Successfull</string>
 
     <string-array name="Menu">
         <item>@string/create</item>
