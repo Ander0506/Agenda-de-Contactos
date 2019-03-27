@@ -9,6 +9,7 @@
     <string name="cellphone">CellPhone</string>
     <string name="save">Save</string>
     <string name="done">Save Successfull</string>
+    <string name="emptylist">Empty Contacts List</string>
 
     <string-array name="Menu">
         <item>@string/create</item>
