@@ -30,6 +30,8 @@ public class ListContact extends AppCompatActivity {
         Contacts = Data.Get();
         ContactNames = new ArrayList<String>();
 
+        TxtNoResults.setText(R.string.emptylist);
+
         TxtNoResults.setVisibility(View.VISIBLE);
         LV.setVisibility(View.INVISIBLE);
 
@@ -41,7 +43,7 @@ public class ListContact extends AppCompatActivity {
             TxtNoResults.setVisibility(View.INVISIBLE);
 
             for (int i=0; i < Contacts.size(); i++){
-                ContactNames.add(Contacts.get(i).getName());
+                ContactNames.add(Contacts.get(i).getName() + " " + Contacts.get(i).getLastName());
             }
         }
 
